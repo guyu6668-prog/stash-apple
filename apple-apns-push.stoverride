@@ -4,7 +4,6 @@
 rules:
   - DOMAIN-SUFFIX,push.apple.com,Proxies
   - DOMAIN-SUFFIX,akadns.net,Proxies
-  - DOMAIN-SUFFIX,courier.push.apple.com,Proxies
   - DOMAIN-KEYWORD,apple.com.edgekey.net,Proxies
   - IP-CIDR,17.249.0.0/16,Proxies,no-resolve
   - IP-CIDR,17.252.0.0/16,Proxies,no-resolve
