@@ -1,0 +1,11 @@
+#!name=guyunb 直连
+#!desc=自己的网站不走代理
+
+rules:
+  - DOMAIN-SUFFIX,guyunb.com,DIRECT
+  - IP-CIDR,150.109.69.177/32,DIRECT,no-resolve
+
+dns:
+  fake-ip-filter:
+    - "guyunb.com"
+    - "*.guyunb.com"
